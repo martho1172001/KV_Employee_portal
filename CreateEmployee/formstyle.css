@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
     
 }
 aside {
@@ -10,8 +12,7 @@ aside {
     float: left;
     font-style: italic;
     background-color:white;
-    box-shadow: 2px 2px 4px 0px lightgray;
-    box-shadow: 0.5rem 0.5rem  4px lightgray;
+    box-shadow: 0px 8px 8px #b90404;
   }
 
 .sidebar>img{
@@ -23,15 +24,14 @@ aside {
 .sidenav{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
-    margin-left: 50px;
+    margin: 30px 0px 0px 15px;  
     padding:5px;
     background-color: rgb(34, 181, 226);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     height: 60px;
     padding-top: 20px;
-    margin-left: 15px;
+  
     
 }
 .sidenav-heading{
@@ -42,12 +42,8 @@ aside {
     font-weight: bold;
     font-size: small;
     color: white;
-    margin-bottom: 4px;
-    margin-top: 3px;
-    margin-left: 15px;
-    font-size: small;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-   
+    margin: 3px 0px 4px 15px;
+    
     
     
 }
@@ -104,10 +100,7 @@ aside {
     padding: 35px;
 
 }
-.create-heading>h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
-}
+
 
 
 .create-form{
@@ -144,7 +137,6 @@ aside {
     flex-direction: column;
     padding-right: 50px;
     height: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
    
 
@@ -157,6 +149,10 @@ aside {
     border-radius: 5px;
     padding: 8px;
    
+}
+
+select:focus{
+    color:lightgrey;
 }
 
 .label-input>input{
@@ -228,3 +224,4 @@ input:focus::placeholder {
    
     
 }
+
