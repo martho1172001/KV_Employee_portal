@@ -150,7 +150,9 @@ aside {
     padding: 8px;
    
 }
-
+select{
+    color: rgb(107, 107, 107);
+}
 select:focus{
     color:lightgrey;
 }
@@ -200,7 +202,7 @@ form>input{
 
 }
 .label-input>input::placeholder {
-    color:  rgb(48, 48, 48);
+    color:  #7c7a7a;
     opacity: 1;
    
 
@@ -218,6 +220,7 @@ input:focus {
    
     
 }
+
 input:focus::placeholder {
     color: rgb(189, 189, 189);
   
@@ -225,3 +228,15 @@ input:focus::placeholder {
     
 }
 
+input#joindate{
+  
+    color: rgb(107, 107, 107)
+}
+
+
+input#joindate:focus{
+    border:1px solid rgb(148, 147, 147);
+}
+select:focus{
+    border:1px solid rgb(148, 147, 147);
+}
